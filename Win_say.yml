@@ -1,0 +1,7 @@
+﻿---
+- name: win_say
+  hosts: "{{ seznam_stanic }}"
+  tasks: 
+  - name: řekne zprávu
+    win_say: 
+     msg: "{{ zpráva }}"
