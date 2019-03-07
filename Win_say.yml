@@ -4,4 +4,4 @@
   tasks: 
   - name: řekne zprávu
     win_say: 
-     msg: "{{ zpráva }}"
+     msg: "{{ zprava }}"
